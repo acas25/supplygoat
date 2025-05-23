@@ -4,7 +4,8 @@ on:
     branches:
       - main
   workflow_dispatch:
-    
+
+#testing
 env:
   CORTEX_API_KEY: ${{secrets.CORTEX_API_KEY}}
   CORTEX_API_KEY_ID: ${{secrets.CORTEX_API_KEY_ID}}
